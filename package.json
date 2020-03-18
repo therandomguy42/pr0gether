@@ -1,0 +1,31 @@
+{
+  "name": "pr0gether",
+  "scripts": {
+    "dev": "node express/index.js",
+    "build": "next build",
+    "export": "next export",
+    "start": "set NODE_ENV=production && node express/index.js",
+    "heroku-postbuild": "next build",
+    "push": "git push origin HEAD && git push heroku HEAD",
+    "format": "prettier --loglevel warn --write \"**/*.{js,jsx,css,md}\""
+  },
+  "main": "express/index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gun": "^0.2020.116",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.2.2",
+    "react": "^16.12.0",
+    "react-autosuggest": "^9.4.3",
+    "react-dom": "16.12.0",
+    "react-media-player": "^0.7.9",
+    "react-redux": "7.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
