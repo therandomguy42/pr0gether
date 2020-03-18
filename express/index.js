@@ -109,7 +109,7 @@ app
       gunCfg = {
         ...gunCfg
         //file: "data"
-        //peers: { "https://togetherpr0.herokuapp.com/gun": {} }
+        //peers: { "https://pr0gether.herokuapp.com/gun": {} }
       };
     }
 
