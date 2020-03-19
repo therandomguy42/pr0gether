@@ -22,4 +22,4 @@ Dev server
 
 [randomguy42](https://pr0gramm.com/user/randomguy42)
 
-MIT License, see the included [License.md](License.md) file.
+MIT License, see the included [License](LICENSE) file.
